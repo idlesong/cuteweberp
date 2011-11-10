@@ -1,0 +1,75 @@
+<?php
+
+/* $Revision: 1.8 $ */
+
+$PageSecurity = 8;
+include ('includes/session.inc');
+
+$title = _('GL Codes Inquiry');
+
+include('includes/header.inc');
+
+$SQL = 'SELECT group_,
+		accountcode ,
+		accountname
+	FROM chartmaster INNER JOIN accountgroups ON chartmaster.group_ = accountgroups.groupname
+	ORDER BY sequenceintb,
+		accountcode';
+
+$ErrMsg = _('No general ledger accounts were returned by the SQL because');
+$AccountsResult = DB_query($SQL,$db,$ErrMsg);
+
+/*show a table of the orders returned by the SQL */
+
+echo "<CENTER><TABLE CELLPADDING=2 COLSPAN=2>
+		<TR>
+			<TH>"._('Group')."</FONT></TH>
+			<TH>"._('Code')."</FONT></TH>
+			<TH>"._('Account Name').'</FONT></TH>
+		</TR>';
+
+$j = 1;
+$k=0; //row colour counter
+$ActGrp ='';
+
+while ($myrow=DB_fetch_array($AccountsResult)) {
+       if ($k==1){
+              echo '<tr class="EvenTableRows">';
+              $k=0;
+       } else {
+              echo '<tr class="OddTableRows">';
+              $k++;
+       }
+
+       if ($myrow['group_']== $ActGrp){
+              printf("<td></td>
+	      		<td><FONT SIZE=2>%s</FONT></td>
+			<td><FONT SIZE=2>%s</FONT></td>
+			</tr>",
+			$myrow['accountcode'],
+			$myrow['accountname']);
+       } else {
+              $ActGrp = $myrow['group_'];
+              printf("<td><FONT SIZE=2>%s</FONT></td>
+	      		<td><FONT SIZE=2>%s</FONT></td>
+			<td><FONT SIZE=2>%s</FONT></td>
+			</tr>",
+			$myrow['group_'],
+			$myrow['accountcode'],
+			$myrow['accountname']);
+       }
+       $j++;
+       If ($j == 18){
+              $j=1;
+              echo "<TR><TH>"._('Group')."</FONT></TH>
+	      		<TH>"._('Code')."</FONT></TH>
+			<TH>"._('Account Name').'</FONT></TH></TR>';
+       }
+}
+//end of while loop
+
+echo '</TABLE></CENTER>';
+
+include('includes/footer.inc');
+
+?>

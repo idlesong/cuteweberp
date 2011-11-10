@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms
+END
+TplFrmLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmLine.html
+END
+ReportsPageSetup.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsPageSetup.html
+END
+TplFrmTBlk.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmTBlk.html
+END
+TplFrmRect.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmRect.html
+END
+ReportsFieldSetup.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsFieldSetup.html
+END
+ReportsDBSetup.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsDBSetup.html
+END
+ReportsRename.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsRename.html
+END
+TplFrmTtl.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmTtl.html
+END
+ReportsImport.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsImport.html
+END
+TplFrmData.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmData.html
+END
+TplFrmCBlk.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmCBlk.html
+END
+TplFrmCDta.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmCDta.html
+END
+ReportsCritSetup.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsCritSetup.html
+END
+TplFrmImg.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmImg.html
+END
+TplFrmTbl.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmTbl.html
+END
+ReportsHome.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsHome.html
+END
+TplFrmText.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmText.html
+END
+ReportsID.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/ReportsID.html
+END
+TplFrmPgNum.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/reportwriter/admin/forms/TplFrmPgNum.html
+END

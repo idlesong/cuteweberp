@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/3/trunk/fpdi/decoders
+END
+ASCII85Decode.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/fpdi/decoders/ASCII85Decode.php
+END
+LZWDecode.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/fpdi/decoders/LZWDecode.php
+END
