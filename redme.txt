@@ -1,1 +1,3 @@
 readme
+
+test editor of github. it's seems good wirte in the web.except seems have some delay.Why? 
